@@ -19,9 +19,10 @@ Repository layout:
 - `tools/<slug>/manifest.json`
 
 Current artifact contract:
-- artifact format is `manifest-json`
+- artifact format is `addon-dir`
+- artifact URL points to the addon directory itself
 - installer verifies SHA-256
-- installed addon still uses the static runtime already compiled into the shell
+- installed addon is still hosted inside the shell UI rather than launching as a separate OS window
 
 Not included yet:
 - packaged binaries

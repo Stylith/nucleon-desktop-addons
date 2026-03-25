@@ -28,9 +28,9 @@
           "channel": "stable",
           "artifacts": [
             {
-              "url": "games/red-menace/manifest.json",
-              "sha256": "1e717aed2ec65a4abeee89bcf8485a6d781a75bb333bea5c3e4e17d76a1e9ba5",
-              "format": "manifest-json"
+              "url": "games/red-menace",
+              "sha256": "4aec8796dec7344ad778187398064a289ea6506a782a07d43a381747cd8cd059",
+              "format": "addon-dir"
             }
           ]
         }
@@ -62,9 +62,9 @@
           "channel": "stable",
           "artifacts": [
             {
-              "url": "games/zeta-invaders/manifest.json",
-              "sha256": "161b79625354f4236ea849801d8e0ade1b872d16d239a85495b28ae1db5326ca",
-              "format": "manifest-json"
+              "url": "games/zeta-invaders",
+              "sha256": "18c4f8e79e1564d79eabe98e85446cf2c60f078de2dedf0a714ed12afaea7ac0",
+              "format": "addon-dir"
             }
           ]
         }
@@ -96,9 +96,9 @@
           "channel": "stable",
           "artifacts": [
             {
-              "url": "tools/nuke-codes/manifest.json",
-              "sha256": "0dfed3b04bb7e9edce554e21608725b47053f09d555c56e8e66bc45cde6e331e",
-              "format": "manifest-json"
+              "url": "tools/nuke-codes",
+              "sha256": "583663a29fb3fef6c22882415e28ac7d62612d2891d0da45f3bdac75d323f57c",
+              "format": "addon-dir"
             }
           ]
         }
