@@ -97,7 +97,7 @@
           "artifacts": [
             {
               "url": "tools/nuke-codes",
-              "sha256": "583663a29fb3fef6c22882415e28ac7d62612d2891d0da45f3bdac75d323f57c",
+              "sha256": "e2b77619e46f71f87e3e1b605f06c36915ed019c03815355759e8d9d2daf84b7",
               "format": "addon-dir"
             }
           ]
