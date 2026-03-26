@@ -100,7 +100,7 @@
           "artifacts": [
             {
               "url": "tools/tools.nuke-codes.ndpkg",
-              "sha256": "8720a5abbdb61f7468a5e33c0e83a22a60eac540c665d9a921dbcc4b8b9f5c68",
+              "sha256": "19f16e5efe32ed9815a3f242dadc4b7c09e3bb749367cd82decf336c10790341",
               "format": "ndpkg"
             }
           ]
