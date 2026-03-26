@@ -20,14 +20,14 @@ Bundle format:
 - additional assets/data files live beside those files inside the same addon directory
 
 Repository layout:
-- `index.json` — addon manifests and release metadata
-- `.ndpkg` archives hosted as GitHub release assets (not committed to the repo)
+- `index.json` — addon manifests, release metadata, and `base_url` for downloads
+- `*.ndpkg` — packaged addon archives (ZIP format), committed directly in the repo
 
 Current artifact contract:
 - artifact format is `ndpkg` (renamed ZIP archive)
-- artifact URL is a filename relative to the index `base_url` (GitHub release asset)
-- installer downloads the `.ndpkg` archive, verifies SHA-256, extracts via the `zip` crate
-- `addon-dir` format is still supported for local development but release artifacts use `ndpkg`
+- artifact URL is a filename relative to the index `base_url` (raw GitHub content)
+- installer downloads the `.ndpkg` archive directly from this repo, verifies SHA-256, extracts via the `zip` crate
+- to update an addon: replace its `.ndpkg` file, update the sha256 in `index.json`, push
 - installed addon is still hosted inside the shell UI rather than launching as a separate OS window
 
 Not included yet:
