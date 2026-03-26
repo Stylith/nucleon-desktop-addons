@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    "sdk/hosted-addon-contract",
+    "sdk/wasm-addon-sdk",
+    "games/zeta-invaders/native-space-invaders-app",
+    "games/zeta-invaders/wasm-zeta-invaders-addon",
+    "games/red-menace/native-red-menace-app",
+    "games/red-menace/wasm-red-menace-addon",
+    "tools/nuke-codes/native-nuke-codes-app",
+    "tools/nuke-codes/wasm-nuke-codes-addon",
+]
+resolver = "2"
