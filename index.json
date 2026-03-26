@@ -65,7 +65,7 @@
           "artifacts": [
             {
               "url": "games/games.zeta-invaders.ndpkg",
-              "sha256": "a319ffe03acb9be0e1438a502fb54d1d36187b91f542bcceea0dca00a2c32287",
+              "sha256": "92955d07f4b87fe0d6abd627051bd61864a3c8aa387e326525afec5229868ceb",
               "format": "ndpkg"
             }
           ]
