@@ -19,8 +19,9 @@
         "permissions": [],
         "file_associations": [],
         "entrypoint": {
-          "kind": "static-route",
-          "route": "red-menace"
+          "kind": "wasm-module",
+          "module": "addon.wasm",
+          "protocol": "shell-surface-v1"
         }
       },
       "releases": [
@@ -30,7 +31,7 @@
           "artifacts": [
             {
               "url": "games/games.red-menace.ndpkg",
-              "sha256": "c861584a21c8a3153ef434c48e2c5439fe21a03822111350c79bb325ac6f2914",
+              "sha256": "3fdd761e8ec12f9c7fe21755e47229d16233f5c8c4d1f02ed34c5c9ea9353863",
               "format": "ndpkg"
             }
           ]
